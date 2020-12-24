@@ -1,4 +1,4 @@
-package com.projectDemo.Config;
+package com.projectDemo.Config;// testing
 
 public interface Locators {
 	
