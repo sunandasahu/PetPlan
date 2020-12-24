@@ -1,0 +1,24 @@
+<suite name="Test-class Suite" parallel="tests" thread-count="3">
+    <test name="Test-class test 1">
+        <parameter name="test-name" value="test-method One" />
+        <classes>
+             <class name="com.projectDemo.Test.TC001_GetQuoteAnimal_Dog"/>
+             class2
+        </classes>
+    </test>
+    <test name="Test-class test 2">
+        <parameter name="test-name" value="test-method One" />
+        <classes>
+        class3
+        class4
+            <class name="com.projectDemo.Test.TC002_GetQuoteAnimal_Cat2"/>
+        </classes>
+    </test>
+    <test name="Test-class test 1">
+        <parameter name="test-name" value="test-method One" />
+        <classes>
+             <class name="com.projectDemo.Test.TC001_GetQuoteAnimal_Dog"/>
+             class2
+        </classes>
+    </test>
+</suite>
